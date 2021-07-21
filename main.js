@@ -3,18 +3,17 @@
 
  var cognomi = ["Bianchi","Neri","Rossi","Verdi","Gialli"];
 
+// inseriscilo in un array
+ cognomi.push(cognome);
+ 
 //  stampa la lista ordinata alfabeticamente
  cognomi.sort();
-//  inseriscilo in un array con altri cognomi
-//  while (i < 5) {
-//      var i = 0;
-//      cognomi = cognomi + cognome;
-//      console.log(cognomi[i]);
-//      i++;
-//  }
- 
+
+//  scrivi la posizione umana
+var lastNameIndex = cognomi.indexOf(cognome);
+lastNameIndex++;
 
 for (var i = 0; i < cognomi.length; i++) {
-    cognomi =+ cognome;
-    console.log(cognomi[i])  ;
+  
+    console.log(cognomi[i]);
 }
